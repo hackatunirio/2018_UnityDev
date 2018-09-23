@@ -1,0 +1,5 @@
+Para que o sistema funcione é necessário:
+I. Fazer a instalação do xampp caso ele não esteja instalado para manter a compatibildade;
+II. Importar o banco de dados chamado "universidade.sql";
+IV. Ter um navegador instalado;
+V. E executar no servidor local.
