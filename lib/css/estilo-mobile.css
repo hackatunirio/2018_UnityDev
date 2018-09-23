@@ -1,0 +1,429 @@
+/*Versão para Tablet*/
+@media only screen and (max-width: 768px)
+{
+	#botaoAbrir {display: block;}
+
+	.cabecalho {display: none;}
+
+	#campoBusca {display: none;}
+
+	.cabecalhoMob
+	{
+		background-color: #1d3557;
+		height: 50px;
+	}	
+
+	.cabecalhoMob button
+	{
+		color: #fff;
+		font-size: 20px;
+		background: none;
+		border: none;
+		width: 50px;
+		padding-top: 10px;
+
+	}
+
+	#envelope
+	{
+		width: 100%;
+		margin: 0 auto;
+		background-color: #e8e8e8;
+	}
+
+	#logo{display: none;}
+
+	.menu {display: none;}
+
+	.menuPerfil {display: none;}
+
+	.conteudo
+	{
+		width: 100%;
+		margin: 0 auto;
+		height: 100vh;
+		padding: 20px;
+		background: #e8e8e8;
+
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	#dadosPost
+	{
+		width: 100%;
+		margin: 0 auto;
+		background: #e2e2e4;
+		padding-top: 20px;
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+
+	.conteudo textarea{padding: 20px;}
+
+	.conteudo button
+	{
+		width: 120px;
+		margin-left: 79%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.listaAnexo {display: none;}
+
+	#menuMobile
+	{
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	#menu-mobile
+	{
+		position: fixed;
+		background-color: #fff;
+		top: 0;
+		width: 80%;
+		height: 100%;
+		left: -80%;
+		transition: 1s;
+		z-index: 999999;
+	}
+
+	.menu-Aberto #menu-mobile
+	{
+		left: 0;
+	}
+
+	.menu-Aberto #menu-mobile-mask
+	{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .8);
+		z-index: 99999;
+	}
+
+	.menu-Aberto #menu-mobile li
+	{
+		width: 100%;
+		display: block;
+		text-align: left;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 20px;
+		padding: 10px;
+	}
+
+	.menu-Aberto #menu-mobile li a
+	{
+		text-align: left;
+		color: #000;
+		font-family: 'Arial';
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+		margin-left: 15px;
+	}
+
+	.menu-Aberto #menu-mobile i
+	{
+		color: #000;
+		font-size: 25px;
+	}
+
+	#menuMobile img
+	{
+		width: 10%;
+	}
+
+	.menu-Aberto .bar-close
+	{
+		position: absolute;
+		bottom: 0;
+		background-color: #1d3557;
+		color: #fff;
+		height: 50px;
+		width: 100%;
+	}
+
+	.menu-Aberto .bar-close .btn-close
+	{
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+
+	#tituloMenu
+	{
+		background-color: #1d3557;
+		height: 60px;
+		margin-bottom: 20px;
+		margin: 0 auto;
+	}
+
+	#logoMobile
+	{
+		width: 20%;
+		position: absolute;
+		margin: 0 auto;
+		left: 40%;
+		top: -9px;
+	}
+
+	#logoMobile img
+	{
+		width: 100%;
+	}
+
+	.caixaTimeLine #iconeMais
+	{
+		margin: 0 auto;
+		font-size: 20px;
+		margin-left: 90%;
+		margin-top: -65px;
+		cursor: pointer;
+	}
+
+	#reacaoTime i
+	{
+		font-size: 23px;
+		cursor: pointer;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+}
+
+/*Versão para Celular*/
+@media only screen and (max-width: 480px)
+{
+	.cabecalho {display: none;}
+
+	.cabecalhoMob
+	{
+		background-color: #1d3557;
+	}
+
+	.cabecalhoMob button
+	{
+		color: #fff;
+		font-size: 20px;
+		background: none;
+		border: none;
+		width: 50px;
+	}
+
+	#campoBusca {display: none;}
+
+	#envelope
+	{
+		width: 100%;
+		margin: 0 auto;
+		background-color: #e8e8e8;
+	}
+
+	#logo{display: none;}
+
+	.menu {display: none;}
+
+	#menu{ margin-top: 0;}
+
+	.menuPerfil {display: none;}
+
+	.conteudo
+	{
+		width: 100%;
+		margin: 0 auto;
+		height: 100vh;
+		padding: 20px;
+		background: #e8e8e8;
+
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	#dadosPost
+	{
+		width: 100%;
+		margin: 0 auto;
+		background: #e2e2e4;
+		padding: 15px;
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+
+	.conteudo textarea{padding: 20px;}
+
+	.conteudo button
+	{
+		width: 120px;
+		margin-left: 50%;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	/*Menu Anexo*/
+	.listaAnexo {display: none;}
+
+	#menu-mobile
+	{
+		position: fixed;
+		background-color: #fff;
+		top: 0;
+		width: 80%;
+		height: 100%;
+		left: -80%;
+		transition: 1s;
+		z-index: 999999;
+	}
+
+	#tituloMenu
+	{
+		background-color: #1d3557;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.menu-Aberto #menu-mobile
+	{
+		left: 0;
+	}
+
+	.menu-Aberto #menu-mobile-mask
+	{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .8);
+		z-index: 99999;
+	}
+
+	.menu-Aberto #menu-mobile li
+	{
+		width: 100%;
+		display: block;
+		text-align: left;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.menu-Aberto #menu-mobile li a
+	{
+		text-align: left;
+		color: #000;
+		font-family: 'Arial';
+		font-size: 13px;
+		font-weight: bold;
+		text-decoration: none;
+		margin-left: 15px;
+	}
+
+	.menu-Aberto #menu-mobile i
+	{
+		color: #000;
+		font-size: 14px;
+	}
+
+	.menu-Aberto #menu-mobile img
+	{
+		width: 10%;
+	}
+
+	.menu-Aberto .bar-close
+	{
+		position: absolute;
+		bottom: 0;
+		background-color: #1d3557;
+		color: #fff;
+		height: 30px;
+		width: 100%;
+	}
+
+	.menu-Aberto .bar-close .btn-close
+	{
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+		margin-top: -10px;
+	}
+
+	#tituloMenu
+	{
+		width: 100%;
+		background-color: #1d3557;
+		height: 30px;
+		margin-bottom: 20px;
+	}
+
+	#logoMobile
+	{
+		width: 20%;
+		position: absolute;
+		margin: 0 auto;
+		left: 40%;
+		top: -9px;
+	}
+
+	#logoMobile img
+	{
+		width: 100%;
+	}
+
+	.caixaTimeLine
+	{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		border-radius: 10px;
+		background: #e2e2e4;
+
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+		transition: 0.3s;
+	}
+
+	#fotoTime label
+	{
+		margin: 0 auto;
+		font-size: 14px;
+		margin-top: -58px;
+		margin-left: 100px;
+	}
+
+	#fotoTime small
+	{
+		display: block;
+		font-size: 10px;
+	}
+
+	.caixaTimeLine #iconeMais
+	{
+		margin: 0 auto;
+		font-size: 20px;
+		margin-left: 80%;
+		margin-top: -70px;
+		cursor: pointer;
+	}
+
+	#reacaoTime i
+	{
+		font-size: 18px;
+		cursor: pointer;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	#imagemPoster img
+	{
+		width: 40%;
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		border: 1px solid #d6d6d6;
+		border-radius: 10px;
+	}
+}
