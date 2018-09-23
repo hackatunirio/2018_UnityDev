@@ -21,8 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `universidade`
 --
-CREATE DATABASE universidade2;
-USE universidade2;
+CREATE DATABASE universidade;
+USE universidade;
 
 -- --------------------------------------------------------
 
